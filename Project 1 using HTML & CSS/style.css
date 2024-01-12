@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Assets/pexels-maxyne-barcel-10402282\ 1.png);
+    background-size: cover;
+    /* padding: 20px 20px; */
+    background-attachment: fixed;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px 0 60px;
+    margin-top: 55px;
+}
+
+.logo {
+       cursor: pointer;
+}
+.navigation  {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center;
+    padding: 0 60px 0 60px;
+    margin-top: 55px; */
+    
+}
+
+.navigation a {
+    display: flex;
+    align-items: center;
+    gap: 63px;
+    text-decoration: none;
+    font-family: "Red Rose";
+    padding: 0 60px 0 60px;
+    color: #FFC233;
+    line-height: 22px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+
+.button-order{
+    background-color: #FF515F;
+    color: white;
+    font-size:15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 25px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.main {
+    
+    max-width: 1154px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 119px;
+
+
+}
+.main-content {
+    font-family: "Dela Gothic One", cursive;
+    font-weight: 400;
+    color: #FFC233;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 114px;
+   
+
+}
+  
+.main-large-button {
+    background-color: #FF505F;
+    font-family: "Red Rose";
+    color: #ffffff;
+    border: none;
+    font-size: 30px;
+    font-weight: 900px;
+    height: 80px;
+    width: 350px;
+    /* padding: 24px 56px; */
+    text-align: center;
+    cursor: pointer;
+    
+}
+/* .main-large-button:hover{
+    background-color: white;
+    color: #FF505F;
+} */
+
+.scroll-button {
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+
+}
