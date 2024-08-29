@@ -1,0 +1,57 @@
+body {
+  background: #fff;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #765959;
+  border-radius: 5px;
+}
+.logo {
+  cursor: pointer;
+  max-height: 100%;
+  max-width: 100%;
+  width: 80px;
+  height: 60px;
+  margin-left: 150px;
+  background-size: cover;
+  float: left;
+}
+.nav-items > ul {
+  font-size: 18px;
+  font-weight: bold;
+  list-style: none;
+  display: flex;
+  margin-right: 80px;
+  align-items: center;
+}
+
+.cart {
+  margin-left: 10px;
+}
+.nav-items > ul > li {
+  padding: 10px;
+}
+
+.search {
+  padding: 10px;
+}
+.input-bar {
+  width: 32rem;
+  height: 2rem;
+  margin-right: 2px;
+  border-radius: 5px;
+}
+.search-btn {
+  cursor: pointer;
+  border-radius: 5px;
+  height: 2.2rem;
+}
+
+.res-card {
+  width: 250px;
+  height: 200px;
+  border: 2px solid rgb(241, 137, 63);
+  border-radius: 10px;
+}
